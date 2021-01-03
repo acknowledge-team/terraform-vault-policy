@@ -1,4 +1,9 @@
-variable policies {
-  description = "A map containing the policies to create with path to hcl policy files"
-  type        = map(any)
+variable "name" {
+  description = "The name of the policy to create"
+  type        = string
+}
+
+variable "policy" {
+  description = "Policy content"
+  type        = string
 }
