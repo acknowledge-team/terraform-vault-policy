@@ -11,5 +11,5 @@ variable "policy_file" {
 variable "namespace" {
   description = "The namespace where the policy will be created"
   type = string
-  default = ""
+  default = null
 }
