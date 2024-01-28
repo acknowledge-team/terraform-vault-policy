@@ -7,3 +7,9 @@ variable "policy" {
   description = "Path to policy file"
   type        = string
 }
+
+variable "namespace" {
+  description = "The namespace where the policy will be created"
+  type = string
+  default = ""
+}
