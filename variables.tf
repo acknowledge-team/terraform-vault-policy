@@ -4,6 +4,6 @@ variable "name" {
 }
 
 variable "policy" {
-  description = "Policy content"
+  description = "Path to policy file"
   type        = string
 }
