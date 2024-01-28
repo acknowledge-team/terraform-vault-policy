@@ -1,4 +1,5 @@
 resource "vault_policy" "policy" {
-  name   = var.name
-  policy = file(var.policy)
+  name      = var.name
+  policy    = file(var.policy)
+  namespace = var.namespace
 }
