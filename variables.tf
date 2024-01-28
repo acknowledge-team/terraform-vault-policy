@@ -3,7 +3,7 @@ variable "name" {
   type        = string
 }
 
-variable "policy" {
+variable "policy_file" {
   description = "Path to policy file"
   type        = string
 }
